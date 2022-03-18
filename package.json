@@ -1,0 +1,42 @@
+{
+  "name": "mvp",
+  "version": "1.0.0",
+  "description": "national parks game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "react-dev": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alliediorio/MVP.git"
+  },
+  "author": "Allie Diorio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alliediorio/MVP/issues"
+  },
+  "homepage": "https://github.com/alliediorio/MVP#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-stopwatch": "^2.0.4",
+    "react-usa-map": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.1",
+    "html-loader": "^3.1.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
